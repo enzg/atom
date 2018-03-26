@@ -1,0 +1,20 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.205.0",
+    "jsonwebtoken": "^8.2.0",
+    "koa-jwt": "^3.3.0",
+    "lodash": "^4.17.5",
+    "random-js": "^1.0.8",
+    "up": "^1.0.2",
+    "uuid": "^3.2.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "yuan_hua_ce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es7.js",
+  "@std/esm": "cjs",
+  "scripts": {
+    "dev": "NODE_ENV=nodb node es7.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.23.4",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5"
+  }
+}
