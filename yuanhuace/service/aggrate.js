@@ -9,7 +9,6 @@ export class AggrateQueryServervice extends Resource {
     return async ctx => {
       const tables = ctx.query.c || _.map(Category.cates, item => item['class'])
       const keys = ctx.query.q.split(',')
-      console.log('tables:', tables)
       const dataItems = await Aggrate.Query$(keys, tables)
       ctx.body = Response.Ok({
         count: dataItems.length,
